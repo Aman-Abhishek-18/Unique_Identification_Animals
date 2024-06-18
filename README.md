@@ -1,1 +1,1 @@
-# Unique_Identification_Animals
+The Unique Identification Animal project is a comprehensive system designed to maintain and manage detailed records of pets. This includes their medical history, previous vaccination date, about upcoming vaccinations, and personal information of pets. New member can also register to get the unique identification number and existing users can also update the details about their pets if required.
