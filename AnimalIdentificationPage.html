@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Identification Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jscode.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#">Unique Indentification for Dogs</a>
+        <ul class="menu-links">
+          <li><a href="#">Update Identification</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="sectionId" class="hero-section">
+    <div class="content">
+        <div id="element3" class="headinginfo">
+            <h2>Looking for upcoming or previous Vaccination date?</h2>
+            <h2>Want to access pet's personal information?</h2>
+            <p>Get all necessary details of your pet in a single click just by providing Unique Identification Number</p><br>
+        </div>
+        <div id="element1" class="container"><br>
+            <div class="newuser">
+            <a href="#">New Member? <b>Click here</b></a>
+            </div>
+            <p>Please eyeienfj provide the below information about your pet</p><br>
+            <div class="number">
+                <label for="indentificationNumber">Identification Number :</label>
+                <input type="text" id="indentificationNumber" placeholder="  enter 12-digits Unique Identification Number" required><br><br>
+                <span class="error" id="phoneError"></span>
+            </div>
+            <button id="button1" type="submit">Check <i class="fa fa-search"></i></button>
+        </div>
+        <div id="element2" class="indentificationDetailsBox"><br>
+            <marquee width="43%" behavior="alternate" direction="left" color="#FFFF00">  
+                Please Update Identification in case of old data  
+            </marquee>
+            <div class="input1"><br>
+                <label for="petName">Pet Name :</label><br>
+                <input type="text" id="petName" required><br>
+            </div>
+            <div class="input1">
+                <label for="breedName">Breed Name :</label><br>
+                <input type="text" id="breedName" required>
+            </div>
+            <div class="input1">
+                <label for="dob">Date of Birth :</label><br>
+                <input type="text" id="dob" required>
+            </div>
+            <div class="input1">
+                <label for="previousVaccination">Previous Vaccination Date :</label><br>
+                <input type="text" id="previousVaccination" required>
+            </div>
+            <div class="input1">
+                <label for="diseaseHistory">Disease History :</label><br>
+                <input type="text" id="diseaseHistory" required>
+            </div>
+            <div class="input1">
+                <label for="ownerName">Owner Name :</label><br>
+                <input type="text" id="ownerName" required>
+            </div>
+            <div class="input1"><br>            
+            <button id="button2" class="back" type="back">
+            <i class="fa fa-arrow-circle-left" style="font-size:18px"></i> Back </button>  
+            </div>       
+        </div>
+    </div>
+    </section>  
+  </body>
+</html>
