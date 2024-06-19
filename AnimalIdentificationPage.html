@@ -6,6 +6,7 @@
     <title>Animal Identification Page</title>
     <link rel="stylesheet" href="style.css">
     <script src="jscode.js"></script>
+    <!-- <script src="server.js"></script> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -30,7 +31,7 @@
             <div class="newuser">
             <a href="#">New Member? <b>Click here</b></a>
             </div>
-            <p>Please eyeienfj provide the below information about your pet</p><br>
+            <p>Please provide the below information about your pet</p><br>
             <div class="number">
                 <label for="indentificationNumber">Identification Number :</label>
                 <input type="text" id="indentificationNumber" placeholder="  enter 12-digits Unique Identification Number" required><br><br>
@@ -38,31 +39,35 @@
             <button id="button1" type="submit">Check <i class="fa fa-search"></i></button>
         </div>
         <div id="element2" class="indentificationDetailsBox"><br>
-            <marquee width="43%" behavior="alternate" direction="left" color="#FFFF00">  
+            <marquee class="marq" width="43%" behavior="alternate" direction="left" color="#FFFF00">  
                 Please Update Identification in case of old data  
             </marquee>
             <div class="input1"><br>
-                <label for="petName">Pet Name :</label><br>
-                <input type="text" id="petName" required><br>
+                <label for="petName">Pet Name :</label>
+                <input type="text" id="petName" required>
             </div>
             <div class="input1">
-                <label for="breedName">Breed Name :</label><br>
+                <label for="breedName">Breed Name :</label>
                 <input type="text" id="breedName" required>
             </div>
             <div class="input1">
-                <label for="dob">Date of Birth :</label><br>
+              <label for="weight">Weight :</label>
+              <input type="text" id="weight" required>
+          </div>
+            <div class="input1">
+                <label for="dob">Date of Birth :</label>
                 <input type="text" id="dob" required>
             </div>
             <div class="input1">
-                <label for="previousVaccination">Previous Vaccination Date :</label><br>
+                <label for="previousVaccination">Previous Vaccination Date :</label>
                 <input type="text" id="previousVaccination" required>
             </div>
             <div class="input1">
-                <label for="diseaseHistory">Disease History :</label><br>
+                <label for="diseaseHistory">Disease History :</label>
                 <input type="text" id="diseaseHistory" required>
             </div>
             <div class="input1">
-                <label for="ownerName">Owner Name :</label><br>
+                <label for="ownerName">Owner Name :</label>
                 <input type="text" id="ownerName" required>
             </div>
             <div class="input1"><br>            
