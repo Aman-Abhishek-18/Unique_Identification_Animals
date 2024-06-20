@@ -3,7 +3,7 @@ var config = {
     server: "AMANABHISHEK\\SQLEXPRESS", 
     database: "FirstDB",
     user: "sa",
-    password: "test123",
+    password: "check1234",
     options: {
         trustedConnection: false, 
         encrypt: false, 
