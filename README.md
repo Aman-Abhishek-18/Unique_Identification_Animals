@@ -48,4 +48,14 @@ User Interface:
 
 
 
+(Unique Identification Number length must be 12)
+
+
+![Screenshot 2024-06-21 205824](https://github.com/Aman-Abhishek-18/Unique_Identification_Animals/assets/70442464/b77053f9-b937-41fa-bf1d-4f5ee9e1a341)
+
+
+
+
+
+
 
